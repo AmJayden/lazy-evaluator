@@ -1,0 +1,12 @@
+[package]
+name = "lazy-evaluator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+binaryninja = {git = "https://github.com/Vector35/binaryninja-api.git", branch = "dev"}
+log = "0.4.17"
